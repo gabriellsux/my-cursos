@@ -1,0 +1,26 @@
+.titulo-azul {
+    color: #FFF;
+    background-color: #1a00ac;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+    border: 5px solid #000000;
+    outline: 5px solid #0b9999;
+}
+
+.titulo-vermelho {
+    color: #FFF;
+    background-color: #ff0000;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+    border: 5px solid #000000;
+    outline: 5px solid #0b9999;
+}
+
+.titulo-verde {
+    color: #FFF;
+    background-color: #51ff00;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+    border: 5px solid #000000;
+    outline: 5px solid #0b9999;
+}
