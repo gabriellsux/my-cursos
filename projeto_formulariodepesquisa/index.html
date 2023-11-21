@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Formulário de Pesquisa</title>
+</head>
+<body>
+    <!-- Parte do cabeçalho -->
+    <header>
+        <div class="topo">Cadastro de Usuário</div>
+    </header>
+
+    <!-- Parte principal do Formulário-->
+    <main>
+        <div class="cadastro">
+            <div class="logo">
+                <img src="/images/logo.png" alt="">
+            </div>
+            <div class="cadastro-int">
+                <div class="form-1">
+                    <form action="">
+                        <label for="Nome">Nome Completo:</label><br>
+                        <input type="text" name="Nome" placeholder="Nome completo" required><br>
+
+                        <label for="RG">RG:</label><br>
+                        <input type="text" name="RG" placeholder="Ex: SP-00.000.000" required><br>
+
+                        <label for="pai">Pai:</label><br>
+                        <input type="text" name="pai" placeholder="Nome do Pai" required><br>
+
+                        <label for="pais">País:</label><br>
+                        <select name="pais" id="pais">
+                            <option value="" autofocus></option>
+                            <option value="argentina">Argentina</option>
+                            <option value="brasil">Brasil</option>
+                            <option value="bolivia">Bolívia</option>
+                            <option value="chile">Chile</option>
+                            <option value="colombia">Colômbia</option>
+                            <option value="canada">Canadá</option>
+                            <option value="estadosunidos">Estados Unidos</option>
+                            <option value="espanha">Espanha</option>
+                        </select><br>
+
+                        <label for="telefone">Telefone:</label><br>
+                        <input type="text" name="telefone" placeholder="+00 (00) 0000-0000" required><br>
+
+                        <label for="email">E-mail:</label><br>
+                        <input type="email" name="email" placeholder="Seuemail@dominio.com" required><br>
+
+                        <label for="data">Data de Nascimento:</label><br>
+                        <input type="date" name="data" required><br>
+
+                        <label for="CPF">CPF:</label><br>
+                        <input type="text" name="CPF" placeholder="Ex: 000.000.000-00" required><br>
+
+                        <label for="mae">Mãe:</label><br>
+                        <input type="text" name="mae" placeholder="Nome da Mãe" required><br>
+
+                        <label for="profissao">Profissão:</label><br>
+                        <input type="text" name="profissao" placeholder="Profissão" required><br>
+
+                        <label for="celular">Celular:</label><br>
+                        <input type="text" name="celular" placeholder="+55 (00) 0000-0000" required><br>
+
+                        <div class="botoes">
+                            <input type="submit" name="cadastrar" value="Cadastrar">
+                            <input type="reset" name="limpar" value="Limpar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

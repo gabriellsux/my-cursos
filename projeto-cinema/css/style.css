@@ -1,0 +1,22 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+}
+
+.hoje {
+    color: darkred;
+    font-size: 20px;
+}
+
+.amanha {
+    color: darkblue;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.titulo {
+    color: seagreen;
+}
